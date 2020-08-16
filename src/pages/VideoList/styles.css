@@ -1,0 +1,16 @@
+.video-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 20px;
+  background-image: linear-gradient(#3e0000, #282a36, #3e0000, #282a36, #3e0000);
+}
+
+.video-grid img {
+  position: fixed;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  left: 5%;
+  border: solid 2px #d84141;
+}

@@ -1,0 +1,102 @@
+.interface {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  height: 100vh;
+  width: 100%;
+}
+
+.header * {
+  background-color: #202020;
+}
+
+.header {
+  word-spacing: 1.5px;
+  background-color: #202020;
+  width: 100%;
+  padding: 20px;
+  text-align: center;
+  line-height: 30px;
+  border-bottom: 1px #bdbdbd solid;
+}
+
+.header h1 {
+  font-size: 1.8em;
+  letter-spacing: 2px;
+}
+
+.header span {
+  font-weight: 700;
+}
+
+.header span.title1 {
+  color: #bdbdbd;
+}
+
+.header span.title2 {
+  color: #FF0000;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+}
+
+.main input {
+  text-align: center;
+  font-family: Roboto;
+  font-weight: 300;
+  color: #f8f8f8;
+  padding: 4px;
+  border: none;
+  border-bottom: 2px #ff0000 solid;
+  width: 18em;
+  margin: 10px;
+  align-self: center;
+  outline: none;
+}
+
+.main button {
+  background-color: #ff0000;
+  align-self: center;
+  padding: 4px;
+  border: none;
+  color: #f8f8f2;
+  width: 40%;
+  height: 35px;
+}
+
+.footer * {
+  background-color: #202020;
+} 
+
+.footer {
+  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+
+  padding: 20px;
+
+  border-top: 1px #bdbdbd solid;
+  width: 100%;
+  background-color: #202020;
+}
+
+.footer a {
+  text-decoration: none;
+} 
+
+.footer .name1 {
+  color: #ff0000;
+  font-weight: 700;
+}
+
+.footer .name2 {
+  color: #bdbdbd;
+  font-weight: 700;
+}
+

@@ -1,0 +1,36 @@
+.video-player * {
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.video-player {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  width: 400px;
+  margin: 10px;
+  padding: 10px;
+  background-color:rgba(0, 0, 0, 0.6);
+  border: #d84141 4px ridge;
+  word-wrap: break-word;
+}
+
+.video-player h1 {
+  align-self: center;
+  margin: 8px;
+  font-weight: 700;
+  font-size: 1.3em;
+  color: #d84141; 
+  background-color:rgba(0, 0, 0, 0.2);
+}
+
+.video-player p {
+  font-size: 1.1em;
+  text-align: justify;
+}
+
+.video-player span {
+  font-weight: 500;
+  font-size: 1.1em;
+  color: #d84141;
+}
