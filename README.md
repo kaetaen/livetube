@@ -8,6 +8,9 @@
 LiveTube é um <strong>progressive web app</strong> que permite ao usuário pesquisar exclusivamente por lives no Youtube.
 É necessário obter uma chave de acesso para a <a href='https://developers.google.com/youtube/v3/'>Youtube Data API</a> e inseri-la no arquivo `.env` na raiz do projeto.
 
+# Acesse
+https://livetube.netlify.app/
+
 ## Comandos disponíveis
 
 No diretório do projeto, você pode executar:
