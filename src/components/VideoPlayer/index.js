@@ -24,6 +24,7 @@ function VideoPlayer ({ data }) {
                 width='100%'
                 height='300px'
                 url={`https://www.youtube.com/watch?v=${videoId}`}
+                controls={true}
               />
               <hr />
                 <h1> { title } </h1>

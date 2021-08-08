@@ -3,7 +3,7 @@
   flex-wrap: wrap;
   justify-content: space-around;
   padding: 20px;
-  background-image: linear-gradient(#3e0000, #282a36, #3e0000, #282a36, #3e0000);
+  background-color: #202020;  
 }
 
 .video-grid img {
@@ -12,5 +12,5 @@
   height: 50px;
   border-radius: 50%;
   left: 5%;
-  border: solid 2px #d84141;
+  border: solid 1px #bdbdbd;
 }

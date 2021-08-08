@@ -11,7 +11,8 @@
   margin: 10px;
   padding: 10px;
   background-color:rgba(0, 0, 0, 0.6);
-  border: #d84141 4px ridge;
+  border-radius: 3%;
+  border: #d84141 1px ridge;
   word-wrap: break-word;
 }
 
@@ -30,7 +31,6 @@
 }
 
 .video-player span {
-  font-weight: 500;
   font-size: 1.1em;
   color: #d84141;
 }

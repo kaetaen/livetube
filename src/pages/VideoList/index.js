@@ -19,9 +19,13 @@ function VideoList () {
   }, [termToSearch.q])
 
   const getApiData = async () =>  {
-    const response = await youtube.get(`/search?key=${process.env.REACT_APP_API_KEY}&part=snippet&type=video&eventType=live&q=${termToSearch.q}&maxResults=20`)
+    const response = await youtube.get(`/search?key=${process.env.REACT_APP_API_KEY}&part=snippet&type=video&eventType=live&q=${termToSearch.q}&maxResults=20&regionCode=BR`)
     setVideos(response.data)
     setResponseOk(true)
+
+    return () => {
+      setVideos('');
+    }
   }
 
   const handleClickButton = () => {
